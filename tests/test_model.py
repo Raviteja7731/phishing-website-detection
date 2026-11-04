@@ -50,3 +50,4 @@ def test_predictor_phishing_ip():
     assert res.prediction in ["Legitimate", "Phishing"]
     assert res.is_phishing is True
     assert any("IP address" in rf for rf in res.risk_factors)
+

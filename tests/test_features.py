@@ -68,3 +68,4 @@ def test_extract_features_vector():
     vec = fe.extract_features_vector("https://www.google.com")
     assert len(vec) == 13
     assert all(isinstance(v, int) for v in vec)
+

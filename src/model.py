@@ -139,3 +139,4 @@ def load_model(filepath: str) -> Any:
     if not os.path.exists(filepath):
         raise FileNotFoundError(f"Model file not found: {filepath}")
     return joblib.load(filepath)
+

@@ -130,3 +130,4 @@ class PhishingPredictor:
             risk_factors=risk_factors,
             safe_factors=safe_factors,
         )
+
